@@ -1,0 +1,13 @@
+var input = require('fs').readFileSync('stdin', 'utf8');
+var [a, b, c] = input.split(" ").map(item => parseFloat(item));
+var PI = 3.14159;
+var areaTriangulo = (a * c) / 2;
+var areaCirculo = PI * Math.pow(c, 2);
+var areaTrapezio = ((a + b) * c) / 2.0;
+var areaQuadrado = b * b;
+var areaRetangulo = b * a;
+console.log("TRIANGULO: " + areaTriangulo.toFixed(3));
+console.log("CIRCULO: " + areaCirculo.toFixed(3));
+console.log("TRAPEZIO: " + areaTrapezio.toFixed(3));
+console.log("QUADRADO: " + areaQuadrado.toFixed(3));
+console.log("RETANGULO: " + areaRetangulo.toFixed(3));
