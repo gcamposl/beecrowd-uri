@@ -11,4 +11,3 @@ else if (lines > 75 && lines <= 100)
 else
   console.log('Fora de intervalo');
 
-
