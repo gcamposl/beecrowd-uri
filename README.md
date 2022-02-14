@@ -4,7 +4,7 @@
 
 - [x] Iniciantes / Variados
 - [x] Strings
-- [] AD - HOC
+- [ ] AD - HOC
 - [x] Estruturas de Dados
 - [x] Matemática
 - [ ] Paradigmas
