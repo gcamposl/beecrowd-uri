@@ -7,8 +7,8 @@
 - [] AD - HOC
 - [x] Estruturas de Dados
 - [x] Matemática
-- [] Paradigmas
-- [] Grafos 
+- [ ] Paradigmas
+- [ ] Grafos 
 - [x] PL/SQL
 - [x] Lógica de programação
 - [x] Programação Dinâmica
