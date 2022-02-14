@@ -1,4 +1,4 @@
-# uri-online-judge
+# beecrowd / uri-online-judge
 
 + Problemas/Exercícios de programação dos mais variados tipos:
 
