@@ -1,9 +1,10 @@
-# Sequencia IJ 2 - 1098
+# Sequencia IJ 4 - 1098
 
 Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 
-# Entrada
+## Entrada
 Não há nenhuma entrada neste problema.
 
-# Saída
-Imprima a sequencia conforme exemplo abaixo
+## Saída
+Imprima a sequencia conforme exemplo abaixo.
+
