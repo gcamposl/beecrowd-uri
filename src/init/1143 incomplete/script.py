@@ -5,3 +5,4 @@ for i in range(n):
     j = 0
     while j < 3:
         ...
+        
