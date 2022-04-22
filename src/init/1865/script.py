@@ -6,4 +6,3 @@ for i in range(n):
         print('Y')
     else:
         print('N')
-
