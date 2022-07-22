@@ -27,17 +27,17 @@ class Stack {
 }
 
 let n = parseInt(lines.shift());
-for (let k = 0; k < n; ++k) {
-  let expression = lines.shift(); // '<..><.<..>>'
+for (let k = 0; k < n; k++) {
+  let expression = lines.shift();
 
   let answer = 0;
   const stack = new Stack();
 
-  for (let i = 0; i < expression.length; ++i) {
+  for (let i = 0; i < expression.length; i++) {
     if (expression[i] === '<') {
-      stack.push(expression[i]);
+      stack.push('<');
     } else if (expression[i] === '>' && !stack.isEmpty()) {
-      answer++;
+      answer += 1;
       stack.pop;
     }
   }
