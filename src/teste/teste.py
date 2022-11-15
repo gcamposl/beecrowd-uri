@@ -56,7 +56,7 @@
 # // Cédula: 20- Quantidade: 1
 # // Cédula: 5- Quantidade: 1
 
-valor = 13
+valor = 576
 notas = [100, 50, 20, 10, 5, 2]
 rest = int(valor)
 print(rest)
