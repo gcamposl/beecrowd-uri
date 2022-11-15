@@ -3,15 +3,14 @@ x = int(input())
 queue = []
 for i in range(1, x + 1):
     queue.append(i)
-# print(queue)
-print(queue)
 
-queue_aux = []
+queue2 = []
 
-for i in queue:
-    if len(queue) >= 2:
-        queue_aux.append(i)
-        i += 1
-        queue.insert(len(queue), queue.pop(i))
+if len(queue) > 1:
+    for i in range(len(queue) - 1):
+        if(len(queue) > 1):
+            queue2.append(queue.pop(i))
+            queue.insert(len(queue), queue[i])
 
-print(queue_aux)
+print("Discarded cards: " + str(queue2).replace("[", "").replace("]", ""))
+print("Remaining card:", queue.pop())
